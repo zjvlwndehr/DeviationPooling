@@ -27,16 +27,20 @@ Pooling method using deviation.
 편차를 이용한 풀링방식으로 이러한 문제를 해결할 수 있다.
 
 # 실제 사용
-아래 사진은 채널이 1개인 흑백 예시 사진이다.
+아래 사진은 채널이 1개인 흑백 예시 사진이다. #
+
 ![sample](https://user-images.githubusercontent.com/53563433/181811727-07c04abb-cf67-4d6d-8061-586a29669d14.png)
 
-이를 절대편차풀링한 결과는 다음과같다.
-![sample1_deviation_pooling](https://user-images.githubusercontent.com/53563433/181814531-7b04acc6-5d99-46a9-b206-2709dbfe5e41.png)
-흰 부분이 체워진 부분에 대하여 색을 잃은 부분이 있지만 계산시 경계면은 확실히 뚜렷해진 모습을 볼 수 있다.
+이를 절대편차풀링한 결과는 다음과같다. #
 
-아래는 max_pooling을 한 부분이다.
+
+![sample1_deviation_pooling](https://user-images.githubusercontent.com/53563433/181814531-7b04acc6-5d99-46a9-b206-2709dbfe5e41.png)
+
+흰 부분이 체워진 부분에 대하여 색을 잃은 부분이 있지만 계산시 경계면은 확실히 뚜렷해진 모습을 볼 수 있다.
+ 
+아래는 max_pooling을 한 부분이다. #
 ![sample1_max_pooling](https://user-images.githubusercontent.com/53563433/181814552-c7cd8a74-8f71-49b5-9c50-cdc28f592297.png)
-경계면은 모호한 느낌이 있으나 편차를 이용하였을 때 보다 형상을 더 잘 알아볼 수 있다.
+경계면은 모호한 느낌이 있으나 편차를 이용하였을 때 보다 형상을 더 잘 알아볼 수 있다. #
 
 # Mix pooling
 이 두 가지의 방식을 혼합하여 풀링한다면 더 좋은 성과를 이룰 수 있을 것이다. 또한 구현하진 않았지만 상황에 따라서 최소풀링을 섞으면 각각의 단점을 모두 보완한 풀링 방식을 만들 수 있을 것이다.
