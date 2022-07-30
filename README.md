@@ -31,7 +31,7 @@ Pooling method using deviation.
 
 ![sample](https://user-images.githubusercontent.com/53563433/181811727-07c04abb-cf67-4d6d-8061-586a29669d14.png)
 
-이를 절대편차풀링한 결과는 다음과같다. 
+이를 편차풀링한 결과는 다음과같다. # filter_size = (2,2), stride = (2,2)
 
 ![sample1_deviation_pooling](https://user-images.githubusercontent.com/53563433/181814531-7b04acc6-5d99-46a9-b206-2709dbfe5e41.png)
 
